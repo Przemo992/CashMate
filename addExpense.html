@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Dodaj Wydatek</title>
     <link rel="icon" href="favicon.ico">
   
@@ -72,12 +73,12 @@
         <form class="login-form">
           <h2 class="login-header">Dodaj Wydatek</h2><hr>
           <div class="row justify-content-center register-form ">
-            <div class="col-8">
+            <div class="col-10">
               <div class="input-group mb-4">
                 <span class="input-group-text">
                   <i class="fa-solid fa-money-bill-wave"></i></span>
-                <input type="text" class="form-control" placeholder="Kwota" aria-label="Amount"
-                  aria-describedby="basic-addon1" required>
+                <input type="number" class="form-control" placeholder="Kwota" aria-label="Amount"
+                  aria-describedby="basic-addon1" min="0.00" required>
               </div>
               <div class="input-group mb-4">
                 <span class="input-group-text">

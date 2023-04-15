@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Dodaj Przychód</title>
     <link rel="icon" href="favicon.ico">
   
@@ -72,18 +73,18 @@
           <h2 class="login-header">Dodaj Przychód</h2>
           <hr>
           <div class="row justify-content-center register-form ">
-            <div class="col-8">
+            <div class="col-10">
               <div class="input-group mb-4">
                 <span class="input-group-text">
                   <i class="fa-solid fa-money-bill-wave"></i></span>
-                <input type="text" class="form-control" placeholder="Kwota" aria-label="Amount"
-                  aria-describedby="basic-addon1" required>
+                <input type="number" class="form-control" placeholder="Kwota" aria-label="Amount"
+                  aria-describedby="basic-addon1" min="0.00" required>
               </div>
               <div class="input-group mb-4">
                 <span class="input-group-text">
                   <i class="fa-solid fa-calendar-check"></i></span>
                 <input type="date" class="form-control" placeholder="Data" aria-label="incomeDate" value="2023-04-12"
-                  aria-describedby="basic-addon1" min="2000.01.01" max="2023.05.31" required>
+                  aria-describedby="basic-addon1" min="2000-01-01" max="2023-05-31" required>
               </div>
               <div class="input-group mb-4">
                 <label class="input-group-text" for="inputGroupSelect01"><i class="fa-solid fa-money-bill-trend-up"
